@@ -16,8 +16,12 @@
    - [스타일 등록](#round_pushpin-스타일-등록)
    - [스타일 수정](#round_pushpin-스타일-수정)
    - [스타일 삭제](#round_pushpin-스타일-삭제)
-   - [관리자 - 스타일 조건별 조회 및 삭제](#round_pushpin-스타일-조건별-조회-및-삭제)
-   - [관리자 - 스타일 신고내역 조건별 조회 및 신고 처리](#round_pushpin-스타일-신고내역-조건별-조회-및-신고-처리)
+   - [관리자 - 스타일 전체 조회](#round_pushpin-스타일-전체-조회)
+   - [관리자 - 스타일 조건별 검색](#round_pushpin-스타일-조건별-검색)
+   - [관리자 - 스타일 다중 삭제](#round_pushpin-스타일-다중-삭제)
+   - [관리자 - 스타일 상세 조회 페이지에서 삭제](#round_pushpin-스타일-상세-조회-페이지에서-삭제)
+   - [관리자 - 스타일 신고내역 조건별 조회](#round_pushpin-스타일-신고내역-조건별-조회)
+   - [관리자 - 스타일 신고 처리](#round_pushpin-스타일-신고-처리)
    - [관리자 - 사용자 차단](#round_pushpin-사용자-차단)
  
 # :pushpin: 개요
@@ -115,8 +119,34 @@
 
 
 ## [관리자]
-### :round_pushpin: 스타일 조건별 조회 및 삭제
+### :round_pushpin: 스타일 전체 조회
+![페이징처리](https://user-images.githubusercontent.com/115603677/222880737-2ca770b3-8023-44a2-8d20-4b8a1a8fe15f.gif)
+- 스타일 전체조회 페이징 처리
 
-### :round_pushpin: 스타일 신고내역 조건별 조회 및 신고 처리
+### :round_pushpin: 스타일 조건별 검색
+![조건별검색](https://user-images.githubusercontent.com/115603677/222880876-187f2c14-0b0e-4008-a73e-a174d963c0a4.gif)
+- 기간 및 닉네임/해쉬태그로 조건별 검색 가능
+- 기간은 필수 입력사항 아님
+- 닉네임 혹은 해쉬태그는 검색 시 필수 입력사항
+
+### :round_pushpin: 스타일 다중 삭제
+![다중삭제](https://user-images.githubusercontent.com/115603677/222880949-90bdfcd0-7089-46f1-be90-da020d2ba807.gif)
+- 관리자가 스타일 다중 삭제 가능
+
+### :round_pushpin: 스타일 상세 조회 페이지에서 삭제
+![상세페이지삭제](https://user-images.githubusercontent.com/115603677/222880958-15724899-5b31-4927-8d5f-ff3f8ffd8681.gif)
+- 상세조회 페이지에서도 해당 스타일 삭제 가능
+
+### :round_pushpin: 스타일 신고내역 조건별 조회
+![신고검색](https://user-images.githubusercontent.com/115603677/222881110-8df6db40-a589-4da3-9e12-f9c0c1b22e5d.gif)
+- 신고 처리 상태에 따라 검색 가능
+
+### :round_pushpin: 스타일 신고 처리
+![신고처리](https://user-images.githubusercontent.com/115603677/222881181-afa29a4a-3227-43c9-8aa2-b13cc324356b.gif)
+- 신고 조회 페이지에서 행 클릭 시 해당 신고 상세페이지로 이동
+- 상세페이지에서 신고게시글 보기 클릭 시 어떤 게시물인지 확인 가능
+- 신고 처리 / 반려 버튼 클릭으로 신고 처리
 
 ### :round_pushpin: 사용자 차단
+![스타일 차단](https://user-images.githubusercontent.com/115603677/222881353-4a4ffd36-a71c-4dd4-93a8-afd84bcb8c15.gif)
+- 세 번 이상 신고처리 당한 회원은 스타일 게시판에 접근 차단

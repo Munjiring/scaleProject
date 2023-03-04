@@ -445,7 +445,7 @@
 		                   AND USER_NICKNAME = ?
 		                   AND S.ENROLL_DATE BETWEEN TO_DATE(?, 'YYYY-MM-DD') AND TO_DATE(?, 'YYYY-MM-DD')
 		                 ORDER
-		                    BY S.ENROLL_DATE DESC
+		                    BY STYLE_NO DESC
 		                ) A
 		        )
 		 WHERE RNUM BETWEEN ? AND ?
@@ -473,7 +473,7 @@
 		                   AND HASHTAG LIKE '%' || ? || '%'
 		                   AND S.ENROLL_DATE BETWEEN TO_DATE(?, 'YYYY-MM-DD') AND TO_DATE(?, 'YYYY-MM-DD')
 		                 ORDER
-		                    BY S.ENROLL_DATE DESC
+		                    BY STYLE_NO DESC
 		                ) A
 		        )
 		 WHERE RNUM BETWEEN ? AND ?
